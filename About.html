@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RCG Consulting Group</title>
+    <!-- CSS Files -->
+    <!-- this link for include html file in onather html file -->
+    <!-- <script src="https://unpkg.com/htmlincludejs"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/icofont/icofont.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- --------------header--------------------- -->
+        <div class="main-page" style="display: block;">
+            <div class="header">
+                <include src="./componennt/header.html"></include>
+                <video autoplay muted loop src="assets/intro.mp4" id="myVideo" type="video/mp4"></video>
+            </div>
+        </div>
+      
+        <!-- ----------------Main Sectors------------------- -->
+        <div class="container-fluid my-5 overflow-hidden">
+            <h2 class="text-center fw-bold display-1 mb-5 main-sector"> <span class="text">RCG</span> Main Sectors</h1>
+                <div class="row">
+                    <div class="col-12 m-auto">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item mb-4">
+                                <div class="card border-0 shadow">
+                                    <img src="assets/img/academy/ACADEMY.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <div class="card-title text-center">
+                                            <h4>Academy <a href="#"><i class="icofont-link"></i></a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb-4">
+                                <div class="card border-0 shadow">
+                                    <img src="assets/img/Conferences/CONFERENCES.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <div class="card-title text-center">
+                                            <h4>Conference <a href="#"><i class="icofont-link"></i></a> </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb-4">
+                                <div class="card border-0 shadow">
+                                    <img src="assets/img/EXHIBTION/EXHIBTION.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <div class="card-title text-center">
+                                            <h4>Exhibition<a href="#"><i class="icofont-link"></i></a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb-4">
+                                <div class="card border-0 shadow">
+                                    <img src="assets/img/INVESTMENT/INVESTMENT.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <div class="card-title text-center">
+                                            <h4>Investment <a href="#"><i class="icofont-link"></i></a> </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb-4">
+                                <div class="card border-0 shadow">
+                                    <img src="assets/img/RESOURCES/RESOURCES.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <div class="card-title text-center">
+                                            <h4>Resource <a href="#"><i class="icofont-link"></i></a> </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb-4">
+                                <div class="card border-0 shadow">
+                                    <img src="assets/img/SGQE/SGQE.png" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <div class="card-title text-center">
+                                            <h4>SGQE <a href="#"><i class="icofont-link"></i></a> </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb-4">
+                                <div class="card border-0 shadow">
+                                    <img src="assets/img/Study Abroad/STUDY ABROAD.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <div class="card-title text-center">
+                                            <h4>Study Abroad <a href="#"><i class="icofont-link"></i></a> </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item mb-4">
+                                <div class="card border-0 shadow">
+                                    <img src="assets/img/CONSULTING.png" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <div class="card-title text-center">
+                                            <h4>Consulting<a href="#"><i class="icofont-link"></i></a> </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!-- ----------------Main Sectors------------------- -->
+
+      
+    </div>
+    <!-- --------------footer--------------------- -->
+    <div class="footer">
+        <include src="./componennt/footer.html"></include>
+    </div>
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
