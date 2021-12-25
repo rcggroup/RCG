@@ -216,4 +216,55 @@ margin: 2rem auto;
 .btn-subscribe{
   border-radius:25px ;
 }
+/* contact style */
+.contact-us{
+  margin-top: 13rem;
+  border-bottom: 2px solid #209dd8;
+  border-top: 2px solid #209dd8; 
+}
+.contact-us h2{
+  color: #209dd8;
+}
 
+.contact-info {
+  /* border-bottom: 1px solid #999898; */
+  padding: 10px 2px;
+  margin: 3px 0;
+  transition: 1s;
+}
+.contact-info:hover h4{
+  color: #209dd8;
+}
+.contact-info:hover p{
+transform: scale(1.1);
+}
+.contact-title {
+  display: flex;
+  margin: 20px 0 2px;
+  text-align: center;
+}
+
+.contact-btn {
+  width: 100%;
+  background-color: #209dd8;
+  margin-top: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.map-container-section {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-section iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* contact style */
