@@ -3,10 +3,11 @@
 --------------------------------------------------------------*/
 a {
   color: #47b2e4;
+  text-decoration: none;
 }
 a:hover {
   color: #73c5eb;
-  text-decoration: none;
+  
 }
 h1,
 h2,
@@ -136,8 +137,8 @@ margin: 2rem auto;
   
 }
 /*----------------------------main section----------------------------------*/
-.carousel-item img {
-  height: 90vh;
+.item img {
+  height: 40vh;
 }
 .main-sector{
   padding: 5px 2px;
@@ -146,6 +147,7 @@ margin: 2rem auto;
 }
 .main-sector span{
   color: #209dd8;
+  font-family: Baskerville Old Face;
 }
 .owl-carousel img{
   height: 300px;
@@ -217,12 +219,14 @@ margin: 2rem auto;
   border-radius:25px ;
 }
 /* contact style */
-.contact-us{
+.contact-us,
+.About{
   margin-top: 13rem;
   border-bottom: 2px solid #209dd8;
   border-top: 2px solid #209dd8; 
 }
-.contact-us h2{
+.contact-us h2,
+.About h2{
   color: #209dd8;
 }
 
@@ -232,8 +236,9 @@ margin: 2rem auto;
   margin: 3px 0;
   transition: 1s;
 }
-.contact-info:hover h4{
-  color: #209dd8;
+.contact-info a i{
+ color: #209dd8;
+ font-size: 1.2rem;
 }
 .contact-info:hover p{
 transform: scale(1.1);
@@ -251,7 +256,10 @@ transform: scale(1.1);
   color: white;
   font-weight: 500;
 }
-
+.map{
+  border: 1px solid rgba(0, 0, 0, 0.125);
+border-radius: 0.25rem;
+}
 .map-container-section {
   overflow: hidden;
   padding-bottom: 56.25%;
