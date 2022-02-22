@@ -5,10 +5,13 @@ a {
   color: #47b2e4;
   text-decoration: none;
 }
+
 a:hover {
   color: #73c5eb;
-  
+  text-decoration: underline;
+
 }
+
 h1,
 h2,
 h3,
@@ -17,22 +20,28 @@ h5,
 h6 {
   font-family: "Jost", sans-serif;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+
+  color: #37517e;
+  /* color: #444444; */
 }
-.container-fluid{
+
+.container-fluid {
   padding: 0;
 }
+
 .main-page {
   display: block;
   height: 120vh;
 }
+
 .navbar-brand .rcg {
-  color: white;
+  color: #209dd8;
   font-size: 60px;
   font-family: Baskerville Old Face;
   text-decoration: underline;
@@ -40,7 +49,7 @@ h6 {
 }
 
 .navbar-brand .logo {
-  color: white;
+  color: #209dd8;
   text-transform: uppercase;
   font-family: Baskerville Old Face;
   text-decoration: none;
@@ -69,15 +78,18 @@ span.rcg:hover {
   backdrop-filter: blur(3px);
   background-color: rgb(66 66 65 / 30%) !important;
 }
-.sub-header{
+
+.sub-header {
   justify-content: center;
 }
-.dropdown-item{
+
+.dropdown-item {
   margin: 5px 2px;
 }
+
 .dropdown-item:hover {
-    background-color: #47b2e4;
-    color: #fff;
+  background-color: #47b2e4;
+  color: #fff;
 
 }
 
@@ -93,7 +105,8 @@ span.rcg:hover {
 li.nav-item {
   padding: 0 7px;
 }
-  .nav-link {
+
+.nav-link {
   color: white !important;
   font-size: 1.1rem;
   text-transform: capitalize;
@@ -127,43 +140,93 @@ li.nav-item {
 .navbar-expand-lg {
   flex-wrap: wrap;
 }
+
 /*----------------------------counter----------------------------------*/
-.counter div{
-margin: 2rem auto;
+.counter div {
+  margin: 2rem auto;
 }
-.counter i{
+
+.counter i {
   color: #209dd8;
   font-size: 40px;
-  
+
 }
+
 /*----------------------------main section----------------------------------*/
+.item:hover {
+  transform: scale(1.03);
+}
+
 .item img {
   height: 40vh;
 }
-.main-sector{
+
+.main-sector {
   padding: 5px 2px;
-  background-color: #d9d9d9;
-  color: #fff;
+  color: #37517e;
 }
-.main-sector span{
+
+h2 {
+  font-size: 4rem !important;
+}
+
+.main-sector span {
   color: #209dd8;
+  font-size: 5rem;
   font-family: Baskerville Old Face;
 }
-.owl-carousel img{
+
+.owl-carousel img {
   height: 300px;
 }
+
 .owl-nav span {
   font-size: 30px;
   margin-top: 0;
   padding: 10px;
 }
 
+.card-cont {
+  height: 540px;
+  display: block;
+}
+
 /*----------------------------our client----------------------------------*/
 #logo {
-  max-width: 100%;
-  height: 100px;
-  margin: 10px auto;
+  height: 200px;
+  margin: 5px auto;
+  width: 250px;
 }
+
+
+/*----------------------------about us----------------------------------*/
+.col-sm-6 {
+  position: relative;
+}
+
+.About-content img {
+  max-width: 100%;
+  position: relative;
+
+}
+
+.content {
+  position: absolute;
+  left: -50px;
+  bottom: 10px;
+  background-color: #47b2e4;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  color: #fff;
+}
+
+.content h4,
+.content p {
+  color: white;
+}
+
+/*----------------------------about us----------------------------------*/
 /*------
 --------------------------------------------------------
 # Back to top button
@@ -195,38 +258,45 @@ margin: 2rem auto;
 }
 
 /*----------------------------footer----------------------------------*/
-.footer{
-  
+.footer {
+
   background-color: #73c5eb;
   padding: 0 !important;
 }
-.footer-link{
+
+.footer-link {
   margin: 20px 0;
 }
-.footer-link ul>li{
+
+.footer-link ul>li {
   margin: 4px 0;
 }
+
 .footer a,
-.owl-carousel a{
+.owl-carousel a {
   text-decoration: none;
   /* padding: 2px 0; */
 }
+
 .footer a:hover,
-.owl-carousel a:hover{
+.owl-carousel a:hover {
   text-decoration: underline;
 }
-.btn-subscribe{
-  border-radius:25px ;
+
+.btn-subscribe {
+  border-radius: 25px;
 }
+
 /* contact style */
 .contact-us,
-.About{
+.About {
   margin-top: 13rem;
   border-bottom: 2px solid #209dd8;
-  border-top: 2px solid #209dd8; 
+  border-top: 2px solid #209dd8;
 }
+
 .contact-us h2,
-.About h2{
+.About h2 {
   color: #209dd8;
 }
 
@@ -236,13 +306,16 @@ margin: 2rem auto;
   margin: 3px 0;
   transition: 1s;
 }
-.contact-info a i{
- color: #209dd8;
- font-size: 1.2rem;
+
+.contact-info a i {
+  color: #209dd8;
+  font-size: 1.2rem;
 }
-.contact-info:hover p{
-transform: scale(1.1);
+
+.contact-info:hover p {
+  transform: scale(1.1);
 }
+
 .contact-title {
   display: flex;
   margin: 20px 0 2px;
@@ -256,10 +329,12 @@ transform: scale(1.1);
   color: white;
   font-weight: 500;
 }
-.map{
+
+.map {
   border: 1px solid rgba(0, 0, 0, 0.125);
-border-radius: 0.25rem;
+  border-radius: 0.25rem;
 }
+
 .map-container-section {
   overflow: hidden;
   padding-bottom: 56.25%;
